@@ -43,6 +43,9 @@ USER nestjs
 # Expose port
 EXPOSE 3000
 
+# Environment variable for production
+ENV NODE_ENV=production
+
 # Environment variable for port
 ENV PORT=3000
 
